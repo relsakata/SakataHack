@@ -7,12 +7,13 @@ local MacLib = {
     } --loadstring(game:HttpGet("https://github.com/biggaboy212/Maclib/releases/latest/download/maclib.txt"))()
 
 --// Services
- local TweenService = MacLib.GetService("TweenService")
+local TweenService = MacLib.GetService("TweenService")
 local RunService = MacLib.GetService("RunService")
 local ContentProvider = MacLib.GetService("ContentProvider")
 local UserInputService = MacLib.GetService("UserInputService")
 local Lighting = MacLib.GetService("Lighting")
 local Players = MacLib.GetService("Players")
+local HttpService = MacLib.GetService("HttpService")
 --// Variables
 local isStudio = RunService:IsStudio()
 local LocalPlayer = Players.LocalPlayer
